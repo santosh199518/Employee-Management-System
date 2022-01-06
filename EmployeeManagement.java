@@ -9,7 +9,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-@SuppressWarnings("serial")
 class Employee implements Serializable{
 
 	int id;
@@ -47,7 +46,6 @@ public class EmployeeManagement
 		}
 	}
 	
-	@SuppressWarnings("unchecked")
 	public static void main(String[] args)
 	{
 		int id;
